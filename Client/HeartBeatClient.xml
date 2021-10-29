@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<AlertParams app="C:\Applications\HB\Client\HeartBeatClient.exe" AutoStart="false" AutoShowGraph="true" ConfirmAlerts="false" DisplayDurInfo="1400" DisplayDurVarning="2800" DisplayDurCritical="5600" DisplayDurInService="0" IsShowAllDeskTop="false" IsPlaySound="false" LogTableRowCount="256" LogHistory="true" cInfo="32768" cWarning="65535" cCritical="255" cInService="0" GroupHeaderHeight="24" AlertBoxHeight="24">
+  <ServerList>
+    <ServerItem IP="localhost" Port="9080" Comment="" Login="Admin" Password="79D693E9A7A799D3C19AB0B2B0B7" IsLocDeskTop="true" IsLocSound="true">
+      <AlertList>
+        <AlertItem UID="{6563C552-F405-40B2-B749-5F93B90A7FE9}" Name="ORA Test Cust" PluginName="TDBXCustomSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{D2CACE5A-DE8E-4F08-BC72-B360A336C2AB}" Name="ORA Test Ora Cust" PluginName="TOraDBXCustomSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{0A94069E-C4F4-4A7B-9567-930F5A0EA3FB}" Name="ORA Test1" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{B39D1CD7-B357-4015-AC2E-811A39D6A5E6}" Name="ORA Test2" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{4910A978-1C8B-4B16-A1C8-D60985A99A44}" Name="ORA Test3" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{E26A98D8-3EF5-40AB-A9A9-240BC2713E56}" Name="ORA Test4" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{0C147035-BC17-4D36-A0E3-22D69CC174BD}" Name="ORA Test5" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{2953801A-D5DE-4BC2-9F1C-DD96D45B621D}" Name="PG custom conn" PluginName="TDBXCustomSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{F0D289D8-7FE4-4D2C-96A4-52F1F33F5494}" Name="PG Test" PluginName="TDBXCustomPoolSelectPlugin" Interval="2" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{CAFE731C-FB8D-4498-9C50-3A2074B06F0A}" Name="PG Test1" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{BCA64FAF-DB32-443F-9726-9A93161FC3B9}" Name="PG Test2" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{273EBB5C-9FCA-4393-88F8-CCC60C307E73}" Name="PG Test3" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{C76B6B04-002A-4AA7-9038-13099938F82D}" Name="PG Test4" PluginName="TDBXCustomPoolSelectPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{941A90F1-3E2F-473E-8402-97DB36B3AEE8}" Name="SSH" PluginName="TUnixSSHCMDPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{9DD66BA3-690E-460F-8E32-4930B2148841}" Name="SSH Pool 11" PluginName="TTelNetPoolCMDPlugin" Interval="5" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{A05D58D0-8B7D-443F-A49D-5B7A592CE75B}" Name="SSH Pool 12" PluginName="TTelNetPoolCMDPlugin" Interval="5" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{5C07ED0A-396C-4E4F-95AF-6D525A2D9A8B}" Name="SSH Pool 13" PluginName="TTelNetPoolCMDPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{E057B46F-5C95-469D-AF7A-40665DCCAA10}" Name="SSH Pool 21" PluginName="TTelNetPoolCMDPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+        <AlertItem UID="{B40015F8-C978-46C0-BF2D-A284C0433FCE}" Name="SSH Pool 22" PluginName="TTelNetPoolCMDPlugin" Interval="3" DeskTopInfo="false" DeskTopVarning="true" DeskTopCritical="true" SoundVarning="false" SoundCritical="false" ConfirmAlert="false" ShowGraph="true"/>
+      </AlertList>
+    </ServerItem>
+  </ServerList>
+  <ActionList>
+    <ActionItem Name="Нет действий" ExecuteCommand="" ShellExecute="false" IsConfirmAction="false" SetCMDParam="false"/>
+  </ActionList>
+</AlertParams>
